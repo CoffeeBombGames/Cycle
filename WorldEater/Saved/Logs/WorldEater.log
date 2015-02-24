@@ -1,0 +1,611 @@
+Log file open, 01/22/15 20:49:56
+LogInit:Display: Running engine for game: WorldEater
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.23-01.49.56:149][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.23-01.49.56:181][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.23-01.49.56:195][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.23-01.49.56:203][  0]LogInit: Object subsystem initialized
+[2015.01.23-01.49.56:205][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.23-01.49.56:205][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.23-01.49.56:213][  0]LogInit: Computer: ANDROMEDA-PC
+[2015.01.23-01.49.56:213][  0]LogInit: User: Andromeda
+[2015.01.23-01.49.56:214][  0]LogInit: CPU Page size=4096, Cores=3
+[2015.01.23-01.49.56:214][  0]LogInit: High frequency timer resolution =3.418056 MHz
+[2015.01.23-01.49.56:214][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.01.23-01.49.56:214][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.23-01.49.56:214][  0]LogMemory: Process Physical Memory: 62.99 MB used, 62.99 MB peak
+[2015.01.23-01.49.56:214][  0]LogMemory: Process Virtual Memory: 38.52 MB used, 38.52 MB peak
+[2015.01.23-01.49.56:214][  0]LogMemory: Physical Memory: 3026.02 MB used, 8140.05 MB total
+[2015.01.23-01.49.56:214][  0]LogMemory: Virtual Memory: 263.41 MB used, 8388608.00 MB total
+[2015.01.23-01.49.56:254][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R7 200 Series (Feature Level 11_0)
+[2015.01.23-01.49.56:254][  0]LogD3D11RHI: Adapter has 2025MB of dedicated video memory, 0MB of dedicated system memory, and 3814MB of shared system memory, 1 output[s]
+[2015.01.23-01.49.56:254][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.23-01.49.56:261][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.23-01.49.56:271][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.01.23-01.49.56:417][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.23-01.49.58:179][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-01.49.58:743][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-01.49.58:800][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.23-01.49.58:915][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/Andromeda/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2015.01.23-01.49.58:915][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andromeda/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2015.01.23-01.49.58:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.23-01.49.58:915][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.23-01.49.58:933][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.23-01.49.58:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andromeda/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2015.01.23-01.49.59:164][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.23-01.49.59:164][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.23-01.49.59:642][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.23-01.50.00:653][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1c5c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2a8c_0///////STATCAT_Advanced////
+[2015.01.23-01.50.00:653][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.23-01.50.00:798][  0]SourceControl: Info Source control is disabled
+[2015.01.23-01.50.00:798][  0]SourceControl: Info Source control is disabled
+[2015.01.23-01.50.00:808][  0]SourceControl: Info Source control is disabled
+[2015.01.23-01.50.01:058][  0]BlueprintLog: New page: Editor Load
+[2015.01.23-01.50.01:223][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2015.01.23-01.50.01:223][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2015.01.23-01.50.01:425][  0]LogEngine: Initializing Engine...
+[2015.01.23-01.50.01:554][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.23-01.50.01:569][  0]LogInit: FAudioDevice initialized.
+[2015.01.23-01.50.01:595][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.23-01.50.01:642][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Andromeda/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2015.01.23-01.50.01:656][  0]LogInit: Texture streaming: Enabled
+[2015.01.23-01.50.01:727][  0]LogInit: Transaction tracking system initialized
+[2015.01.23-01.50.01:925][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.01.23-01.50.02:650][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-01.50.03:101][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.23-01.50.03:347][  0]LogConsoleResponse:Display: 
+[2015.01.23-01.50.03:609][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1e6c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2a8c_0///////STATCAT_Advanced////
+[2015.01.23-01.50.03:609][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1db8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2a8c_0///////STATCAT_Advanced////
+[2015.01.23-01.50.03:609][  0]SourceControl: Info Source control is disabled
+[2015.01.23-01.50.03:609][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.23-01.50.03:610][  0]LightingResults: New page: Lighting Build
+[2015.01.23-01.50.03:622][  0]MapCheck: New page: Map Check
+[2015.01.23-01.50.03:622][  0]LightingResults: New page: Lighting Build
+[2015.01.23-01.50.03:636][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B09300
+[2015.01.23-01.50.04:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.23-01.50.04:096][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-01.50.04:096][  0]Cmd: MAP CHECKDEP
+[2015.01.23-01.50.04:096][  0]MapCheck: New page: Example_Map - Jan 22, 2015, 3:50:04 PM
+[2015.01.23-01.50.04:225][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [128.649ms] ==========
+[2015.01.23-01.50.04:225][  0]LogFileHelpers: Loading map 'Example_Map' took 0.616
+[2015.01.23-01.50.04:351][  0]LogCollectionManager: Loaded 0 collections in 0.001139 seconds
+[2015.01.23-01.50.04:468][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.23-01.50.04:539][  0]LogLoad: Full Startup: 10.46 seconds (BP compile: 0.11 seconds)
+[2015.01.23-01.50.04:556][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.23-01.50.04:820][  0]LogRenderer:Warning: Reallocating scene render targets to support 680x680.
+[2015.01.23-01.50.05:302][  3]LogAssetRegistry: Asset discovery search completed in 3.3874 seconds
+[2015.01.23-01.54.07:188][617]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-01.54.07:323][617]BlueprintEditorCompileResults: Info [0253.14] Compile of BP_WorldEater successful! [in 5 ms]
+[2015.01.23-01.54.25:917][640]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-01.54.26:031][640]BlueprintEditorCompileResults: Info [0271.87] Compile of BP_WorldEater successful! [in 5 ms]
+[2015.01.23-01.54.26:764][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-01.54.27:159][665]LogSavePackage: Save=385.672455ms
+[2015.01.23-01.54.27:159][665]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEaterAF1633FD471181D823FA27AC1D9A6460.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-01.54.35:902][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:902][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:906][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:906][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:906][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:907][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:908][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:908][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.54.35:908][107]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-01.55.34:916][297]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-01.55.35:038][297]BlueprintEditorCompileResults: Info [0340.87] Compile of BP_WorldEater successful! [in 5 ms]
+[2015.01.23-01.55.36:127][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-01.55.36:533][342]LogSavePackage: Save=393.761841ms
+[2015.01.23-01.55.36:533][342]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater82432A764D7030A038555695D8E4DCF1.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.00.23:296][ 54]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-02.00.23:297][ 54]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-02.00.28:871][364]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.030
+[2015.01.23-02.00.28:886][364]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_WorldEater] ([1] browsable assets)...
+[2015.01.23-02.00.28:914][364]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_WorldEater.BP_WorldEater]
+[2015.01.23-02.00.28:914][364]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_WorldEater]
+[2015.01.23-02.00.29:336][364]LogSavePackage: Save=393.308655ms
+[2015.01.23-02.00.29:336][364]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater_Auto162FAFB2348682E77F07F619DA898A2DB.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/Autosaves/Game/Blueprints/BP_WorldEater_Auto1.uasset'
+[2015.01.23-02.00.29:344][364]LogFileHelpers: Auto-saving content packages took 0.472
+[2015.01.23-02.02.10:447][956]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.02.10:480][956]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection
+[2015.01.23-02.02.10:481][956]LogBlueprint:Warning: [compiler] Warning [0736.40] Compile of BP_WorldEater failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms]
+[2015.01.23-02.02.10:630][956]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection
+[2015.01.23-02.02.10:630][956]BlueprintEditorCompileResults:Warning: Warning [0736.40] Compile of BP_WorldEater failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms]
+[2015.01.23-02.03.30:363][125]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-02.04.00:079][704]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-02.04.00:080][704]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-02.04.00:080][704]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_159.EdGraphPin_2753"''
+[2015.01.23-02.04.18:006][697]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.04.18:121][697]BlueprintEditorCompileResults: Info [0863.96] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.04.22:704][ 53]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.04.22:704][ 53]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:04:22 PM)
+[2015.01.23-02.04.22:805][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101143s)
+[2015.01.23-02.04.22:808][ 53]LogPlayLevel: PIE: World Init took: (0.002690s)
+[2015.01.23-02.04.22:809][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.104285s)
+[2015.01.23-02.04.22:848][ 53]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.04.22:850][ 53]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.04.22:857][ 53]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.04.22
+[2015.01.23-02.04.22:857][ 53]LogWorld: Bringing up level for play took: 0.007551
+[2015.01.23-02.04.22:859][ 53]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.205
+[2015.01.23-02.04.22:941][ 54]LogRenderer:Warning: Reallocating scene render targets to support 680x688.
+[2015.01.23-02.04.25:253][325]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.27:885][640]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.29:244][802]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.30:945][  5]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.31:873][116]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.32:159][150]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.32:970][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001610DDA0
+[2015.01.23-02.04.42:898][847]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.04.43:013][847]BlueprintEditorCompileResults: Info [0888.85] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.04.46:608][148]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.04.46:608][148]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:04:46 PM)
+[2015.01.23-02.04.46:691][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083421s)
+[2015.01.23-02.04.46:694][148]LogPlayLevel: PIE: World Init took: (0.002547s)
+[2015.01.23-02.04.46:694][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.086268s)
+[2015.01.23-02.04.46:724][148]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.04.46:725][148]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.04.46:732][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.04.46
+[2015.01.23-02.04.46:732][148]LogWorld: Bringing up level for play took: 0.007208
+[2015.01.23-02.04.46:734][148]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.331
+[2015.01.23-02.04.50:262][562]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.51:631][725]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.04.58:649][562]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.00:136][740]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.04:682][282]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.06:034][444]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.07:151][578]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.08:007][671]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CFE1EE0
+[2015.01.23-02.05.13:403][ 17]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.05.13:520][ 17]BlueprintEditorCompileResults: Info [0919.36] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.05.19:224][532]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.05.19:224][532]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:05:19 PM)
+[2015.01.23-02.05.19:312][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087526s)
+[2015.01.23-02.05.19:314][532]LogPlayLevel: PIE: World Init took: (0.001815s)
+[2015.01.23-02.05.19:314][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.089642s)
+[2015.01.23-02.05.19:339][532]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.05.19:340][532]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.05.19:347][532]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.05.19
+[2015.01.23-02.05.19:348][532]LogWorld: Bringing up level for play took: 0.007582
+[2015.01.23-02.05.19:349][532]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.284
+[2015.01.23-02.05.22:972][952]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.25:810][285]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.29:551][732]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.34:255][291]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.36:792][593]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.39:004][857]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.05.41:303][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000232C9BC0
+[2015.01.23-02.05.53:010][779]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.05.53:122][779]BlueprintEditorCompileResults: Info [0958.96] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.05.54:325][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-02.05.54:737][826]LogSavePackage: Save=397.433807ms
+[2015.01.23-02.05.54:737][826]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEaterCA0BD5B24BC768C444D5BD8A9C368C10.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.05.58:976][166]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.05.58:976][166]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:05:58 PM)
+[2015.01.23-02.05.59:061][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084427s)
+[2015.01.23-02.05.59:064][166]LogPlayLevel: PIE: World Init took: (0.002747s)
+[2015.01.23-02.05.59:064][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.087493s)
+[2015.01.23-02.05.59:090][166]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.05.59:091][166]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.05.59:098][166]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.05.59
+[2015.01.23-02.05.59:098][166]LogWorld: Bringing up level for play took: 0.007185
+[2015.01.23-02.05.59:100][166]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.035
+[2015.01.23-02.06.05:234][890]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.07:476][155]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.10:738][543]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.16:811][268]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.21:080][777]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.28:102][615]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.30:736][930]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.06.31:777][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C9F0AE0
+[2015.01.23-02.08.43:711][529]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.08.43:834][529]BlueprintEditorCompileResults: Info [1129.67] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.08.48:766][841]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.08.48:766][841]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:08:48 PM)
+[2015.01.23-02.08.48:853][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086705s)
+[2015.01.23-02.08.48:856][841]LogPlayLevel: PIE: World Init took: (0.002898s)
+[2015.01.23-02.08.48:856][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.090005s)
+[2015.01.23-02.08.48:884][841]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.08.48:886][841]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.08.48:892][841]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.08.48
+[2015.01.23-02.08.48:893][841]LogWorld: Bringing up level for play took: 0.007034
+[2015.01.23-02.08.48:894][841]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.17
+[2015.01.23-02.08.53:936][418]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.08.58:482][938]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.09.02:799][433]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.09.06:728][884]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.09.08:822][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE82CA0
+[2015.01.23-02.09.08:822][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D3DBCE0
+[2015.01.23-02.09.43:947][737]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.09.44:078][737]BlueprintEditorCompileResults: Info [1189.90] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.09.44:880][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-02.09.45:296][759]LogSavePackage: Save=405.015594ms
+[2015.01.23-02.09.45:296][759]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater59CD10724ED8EDB5687BC784479C4D14.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.09.48:679][ 88]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.09.48:679][ 88]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:09:48 PM)
+[2015.01.23-02.09.48:766][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086851s)
+[2015.01.23-02.09.48:767][ 88]LogPlayLevel: PIE: World Init took: (0.001790s)
+[2015.01.23-02.09.48:768][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.089004s)
+[2015.01.23-02.09.48:792][ 88]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.09.48:794][ 88]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.09.48:801][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.09.48
+[2015.01.23-02.09.48:802][ 88]LogWorld: Bringing up level for play took: 0.007593
+[2015.01.23-02.09.48:803][ 88]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.262
+[2015.01.23-02.09.54:959][806]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.09.57:044][ 52]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.09.59:054][286]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.10.00:033][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002407AFC0
+[2015.01.23-02.10.00:033][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC01120
+[2015.01.23-02.11.21:918][406]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.11.22:043][406]BlueprintEditorCompileResults: Info [1287.87] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.12.07:961][578]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.12.27:139][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.029
+[2015.01.23-02.12.27:155][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_WorldEater] ([1] browsable assets)...
+[2015.01.23-02.12.27:187][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_WorldEater.BP_WorldEater]
+[2015.01.23-02.12.27:187][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_WorldEater]
+[2015.01.23-02.12.27:627][415]LogSavePackage: Save=409.750458ms
+[2015.01.23-02.12.27:627][415]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater_Auto2834420F64AB5798E584768B56986485C.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/Autosaves/Game/Blueprints/BP_WorldEater_Auto2.uasset'
+[2015.01.23-02.12.27:653][415]LogFileHelpers: Auto-saving content packages took 0.514
+[2015.01.23-02.13.13:776][537]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.23-02.14.41:168][737]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.41:441][744]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.41:652][747]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.41:834][751]LogEditorTransaction: Undo Add Node
+[2015.01.23-02.14.42:045][758]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.42:521][778]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.42:753][786]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.42:947][791]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.43:157][798]LogEditorTransaction: Undo Add Node
+[2015.01.23-02.14.43:392][806]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.43:585][812]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.43:799][819]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.44:009][826]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.44:218][833]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.44:408][839]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.45:395][884]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.45:606][891]LogEditorTransaction: Undo Paste clipboard contents
+[2015.01.23-02.14.45:800][896]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.46:028][904]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.46:259][912]LogEditorTransaction: Undo Add Node
+[2015.01.23-02.14.46:496][920]LogEditorTransaction: Undo Rename Variable
+[2015.01.23-02.14.46:707][927]LogEditorTransaction: Undo Add Variable
+[2015.01.23-02.14.46:936][935]LogEditorTransaction: Undo Delete current selection
+[2015.01.23-02.14.47:125][941]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.47:354][949]LogEditorTransaction: Undo Break Pin Links
+[2015.01.23-02.14.47:692][962]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.48:002][974]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.48:229][982]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.48:436][989]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.48:990][ 13]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.49:242][ 22]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.49:756][ 44]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.50:090][ 57]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.50:544][ 76]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.50:982][ 94]LogEditorTransaction: Undo Add Node
+[2015.01.23-02.14.55:168][300]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.55:452][308]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.55:700][312]LogEditorTransaction: Undo Move Node
+[2015.01.23-02.14.55:886][318]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.56:117][325]LogEditorTransaction: Undo Add Node
+[2015.01.23-02.14.56:310][331]LogEditorTransaction: Undo Create Pin Link
+[2015.01.23-02.14.56:535][339]LogEditorTransaction: Undo Delete current selection
+[2015.01.23-02.14.56:748][345]LogEditorTransaction: Undo Delete current selection
+[2015.01.23-02.14.56:977][353]LogEditorTransaction: Undo Delete current selection
+[2015.01.23-02.14.57:193][360]LogEditorTransaction: Undo Delete current selection
+[2015.01.23-02.14.59:721][471]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.14.59:863][471]BlueprintEditorCompileResults: Info [1505.67] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.15.40:765][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-02.15.41:181][ 62]LogSavePackage: Save=404.730927ms
+[2015.01.23-02.15.41:181][ 62]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater16561B0E413480D54156F7BFB5479257.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.22.27:813][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.028
+[2015.01.23-02.22.27:828][393]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_WorldEater] ([1] browsable assets)...
+[2015.01.23-02.22.27:837][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_WorldEater]
+[2015.01.23-02.22.27:932][393]LogSavePackage: Save=62.932850ms
+[2015.01.23-02.22.27:932][393]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater_Auto3B019D5C24A1D12C6B739C89A4C8D2B81.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/Autosaves/Game/Blueprints/BP_WorldEater_Auto3.uasset'
+[2015.01.23-02.22.27:944][393]LogFileHelpers: Auto-saving content packages took 0.131
+[2015.01.23-02.26.41:949][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-02.26.42:020][147]LogSavePackage: Save=57.300991ms
+[2015.01.23-02.26.42:020][147]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater7F17A293434420D977987F9092AD26E2.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.28.29:150][138]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-02.28.29:151][138]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-02.28.29:151][138]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.23-02.28.34:430][387]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.23-02.28.34:458][387]LogPlayLevel: [PIE] Compiling BP_WorldEater before PIE...
+[2015.01.23-02.28.34:571][387]LogPlayLevel: PIE:  Blueprint regeneration took 141 ms (1 blueprints)
+[2015.01.23-02.28.34:572][387]PIE: New page: SIE session: Example_Map (Jan 22, 2015, 4:28:34 PM)
+[2015.01.23-02.28.34:660][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087810s)
+[2015.01.23-02.28.34:664][387]LogPlayLevel: PIE: World Init took: (0.003851s)
+[2015.01.23-02.28.34:664][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.091983s)
+[2015.01.23-02.28.34:690][387]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.28.34:691][387]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.28.34:698][387]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.28.34
+[2015.01.23-02.28.34:698][387]LogWorld: Bringing up level for play took: 0.006936
+[2015.01.23-02.28.34:699][387]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.371
+[2015.01.23-02.28.37:417][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FB519E0
+[2015.01.23-02.28.39:290][570]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.28.39:403][570]BlueprintEditorCompileResults: Info [2325.23] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.28.42:948][812]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.28.42:948][812]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:28:42 PM)
+[2015.01.23-02.28.43:038][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089329s)
+[2015.01.23-02.28.43:039][812]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2015.01.23-02.28.43:039][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.091111s)
+[2015.01.23-02.28.43:069][812]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.28.43:070][812]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.28.43:079][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.28.43
+[2015.01.23-02.28.43:080][812]LogWorld: Bringing up level for play took: 0.009640
+[2015.01.23-02.28.43:082][812]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.011
+[2015.01.23-02.28.47:006][263]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.28.49:116][507]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.28.55:918][289]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.03:111][120]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.07:534][636]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.14:638][457]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.20:768][167]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.27:671][968]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.34:769][784]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.40:837][486]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.47:986][313]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.50:111][558]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.29.56:327][278]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.30.03:453][103]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.30.17:828][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024F0F2E0
+[2015.01.23-02.32.28:576][229]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.32.28:577][229]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:32:28 PM)
+[2015.01.23-02.32.28:674][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097108s)
+[2015.01.23-02.32.28:676][229]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2015.01.23-02.32.28:676][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.099516s)
+[2015.01.23-02.32.28:706][229]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.32.28:707][229]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.32.28:714][229]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.32.28
+[2015.01.23-02.32.28:715][229]LogWorld: Bringing up level for play took: 0.007659
+[2015.01.23-02.32.28:717][229]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.355
+[2015.01.23-02.32.38:190][276]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.32.41:436][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F76F7E0
+[2015.01.23-02.33.06:666][842]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.33.06:778][842]BlueprintEditorCompileResults: Info [2592.61] Compile of BP_WorldEater successful! [in 5 ms]
+[2015.01.23-02.33.08:046][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-02.33.08:465][883]LogSavePackage: Save=404.232391ms
+[2015.01.23-02.33.08:465][883]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEaterE9EA01254F70622AE5ECBD8E68BBE11C.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.33.11:728][165]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.33.11:728][165]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:33:11 PM)
+[2015.01.23-02.33.11:811][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083178s)
+[2015.01.23-02.33.11:813][165]LogPlayLevel: PIE: World Init took: (0.002043s)
+[2015.01.23-02.33.11:813][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.085537s)
+[2015.01.23-02.33.11:840][165]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.33.11:841][165]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.33.11:848][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.33.11
+[2015.01.23-02.33.11:848][165]LogWorld: Bringing up level for play took: 0.006963
+[2015.01.23-02.33.11:849][165]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.778
+[2015.01.23-02.33.23:452][447]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.33.42:172][524]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.33.43:428][657]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E3C94E0
+[2015.01.23-02.34.55:790][937]LogRenderer:Warning: Reallocating scene render targets to support 968x688.
+[2015.01.23-02.38.50:129][531]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.38.50:256][531]BlueprintEditorCompileResults: Info [2936.07] Compile of BP_WorldEater successful! [in 6 ms]
+[2015.01.23-02.38.53:915][835]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.38.53:915][835]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:38:53 PM)
+[2015.01.23-02.38.54:007][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091956s)
+[2015.01.23-02.38.54:009][835]LogPlayLevel: PIE: World Init took: (0.002352s)
+[2015.01.23-02.38.54:010][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.094610s)
+[2015.01.23-02.38.54:040][835]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.38.54:041][835]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.38.54:048][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.38.54
+[2015.01.23-02.38.54:048][835]LogWorld: Bringing up level for play took: 0.007088
+[2015.01.23-02.38.54:050][835]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.976
+[2015.01.23-02.39.08:559][503]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.39.13:179][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031C32DE0
+[2015.01.23-02.39.33:169][118]BlueprintLog: New page: Compile BP_WorldEater
+[2015.01.23-02.39.33:270][118]BlueprintEditorCompileResults: Info [2979.11] Compile of BP_WorldEater successful! [in 5 ms]
+[2015.01.23-02.39.38:497][593]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.39.38:497][593]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:39:38 PM)
+[2015.01.23-02.39.38:575][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078021s)
+[2015.01.23-02.39.38:576][593]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2015.01.23-02.39.38:576][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.079491s)
+[2015.01.23-02.39.38:604][593]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.39.38:606][593]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.39.38:612][593]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.39.38
+[2015.01.23-02.39.38:613][593]LogWorld: Bringing up level for play took: 0.007135
+[2015.01.23-02.39.38:615][593]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.459
+[2015.01.23-02.39.45:460][372]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.39.59:368][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033BDD8A0
+[2015.01.23-02.40.01:769][252]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.23-02.40.01:769][252]PIE: New page: PIE session: Example_Map (Jan 22, 2015, 4:40:01 PM)
+[2015.01.23-02.40.01:848][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078787s)
+[2015.01.23-02.40.01:849][252]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2015.01.23-02.40.01:850][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.080180s)
+[2015.01.23-02.40.01:874][252]LogWorld: Game class is 'BP_WEGameMode_C'
+[2015.01.23-02.40.01:876][252]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.23-02.40.01:882][252]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.01.22-21.40.01
+[2015.01.23-02.40.01:883][252]LogWorld: Bringing up level for play took: 0.007003
+[2015.01.23-02.40.01:884][252]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.81
+[2015.01.23-02.40.11:416][356]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.40.29:437][456]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.40.45:344][286]LogBlueprintUserMessages: Dash timed out.
+[2015.01.23-02.40.50:127][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FB50B80
+[2015.01.23-02.41.18:146][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WorldEater" FILE="../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset" SILENT=true
+[2015.01.23-02.41.18:563][558]LogSavePackage: Save=401.311462ms
+[2015.01.23-02.41.18:563][558]LogSavePackage: Moving '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Saved/BP_WorldEater8E0F462A4E81806C900744829EBCA90A.tmp' to '../../../../../../Users/Andromeda/Documents/Unreal Projects/WorldEater/Content/Blueprints/BP_WorldEater.uasset'
+[2015.01.23-02.41.22:383][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000172B6FC0
+[2015.01.23-02.41.22:835][898]Cmd: QUIT_EDITOR
+[2015.01.23-02.41.22:979][898]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2015.01.23-02.41.22:981][898]LogExit: Preparing to exit.
+[2015.01.23-02.41.23:936][898]LogExit: Editor shut down
+[2015.01.23-02.41.23:937][898]LogExit: Transaction tracking system shut down
+[2015.01.23-02.41.23:938][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E3F6700
+[2015.01.23-02.41.23:941][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6C5BC0
+[2015.01.23-02.41.23:968][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317F7D80
+[2015.01.23-02.41.23:968][898]LogExit: Object subsystem successfully closed.
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module AutomationWorker (145)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (144)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (143)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (142)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module UndoHistory (141)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (140)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module UserFeedback (139)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module XmlParser (138)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module Blutility (137)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (136)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (135)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (134)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (133)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (132)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (131)
+[2015.01.23-02.41.24:066][898]LogModuleManager: Shutting down and abandoning module InputBindingEditor (130)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (129)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module SettingsEditor (128)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module SessionLauncher (127)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module SessionFrontend (126)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module ProfilerClient (125)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (124)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module DeviceManager (123)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module AutomationController (122)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module AutomationWindow (121)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module Layers (120)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (119)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module DetailCustomizations (118)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module PackagesDialog (117)
+[2015.01.23-02.41.24:067][898]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2015.01.23-02.41.24:068][898]LogModuleManager: Shutting down and abandoning module AssetRegistry (115)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module Persona (114)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module GraphEditor (113)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module ClassViewer (112)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module Toolbox (111)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module ModuleUI (110)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module Sequencer (109)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module OutputLog (107)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module GammaUI (106)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module Documentation (105)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module DesktopPlatform (103)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2015.01.23-02.41.24:089][898]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2015.01.23-02.41.24:163][898]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2015.01.23-02.41.24:164][898]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2015.01.23-02.41.24:165][898]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2015.01.23-02.41.24:165][898]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2015.01.23-02.41.24:165][898]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2015.01.23-02.41.24:165][898]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2015.01.23-02.41.24:265][898]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2015.01.23-02.41.24:265][898]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2015.01.23-02.41.24:268][898]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2015.01.23-02.41.24:268][898]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2015.01.23-02.41.24:268][898]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2015.01.23-02.41.24:268][898]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2015.01.23-02.41.24:268][898]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2015.01.23-02.41.24:269][898]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2015.01.23-02.41.24:269][898]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2015.01.23-02.41.24:269][898]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2015.01.23-02.41.24:269][898]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2015.01.23-02.41.24:269][898]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module Core (46)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2015.01.23-02.41.24:272][898]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2015.01.23-02.41.24:293][898]LogDerivedDataCache: Shutdown
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.23-02.41.24:293][898]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.23-02.41.24:294][898]LogExit: Exiting.
+[2015.01.23-02.41.24:297][898]Log file closed, 01/22/15 21:41:24
