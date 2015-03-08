@@ -224,3 +224,5 @@ Autosaves/
 *.ini
 WorldEater/Saved/Config/Windows/EditorUserSettings.ini
 *.ini
+*.ini
+WorldEater/Intermediate/CachedAssetRegistry.bin
