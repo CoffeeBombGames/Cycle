@@ -221,3 +221,6 @@ pip-log.txt
 ###################
 Backup/
 Autosaves/
+*.ini
+WorldEater/Saved/Config/Windows/EditorUserSettings.ini
+*.ini
